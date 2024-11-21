@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracy Nguyen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ded1ed97d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+
+    <!-- DESIGN NOTES:
+    * domain name : tracyn.dev
+    * skills page include mini img gallery of languages/frameworks
+    *hover over projects translate up
+    *include light and dark mode
+        *bullet point for dark mode -> <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    -->
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <nav class="navbar">    
+                                <ul class="navbar-nav" id="navbar">
+                                    <li class="nav-item active"><a href="/index.html">Home</a></li> 
+                                    <li class="nav-item"><a href="/about.html">About</a></li> 
+                                    <li class="nav-item"><a href="/work.html">Work</a></li> 
+                                    <li class="nav-item"><a href="/contact.php">Contact</a></li>
+                                    <label class="ui-switch">
+                                        <input type="checkbox" id="theme-button">
+                                        <div class="slider">
+                                          <div class="circle"></div>
+                                        </div>
+                                    </label>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="page-container">
+                <section class="home">
+                    <div id="home">
+                        <div class="landingPage">
+                            <div class="catch">
+                                <h1>Hi, I'm Tracy.</h1>
+                                <h1>Front End Web Developer</h1>
+                    
+                                <p>A recent first-generation graduate of UC San Diego with an unwavering work ethic and dedication to lifelong learning.</p>
+                                <div class="star-container">
+                                    <div class="star-svg floating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="151" height="148" viewBox="0 0 151 148" fill="none">
+                                            <path d="M75.9817 0L77.25 34.2209C78.0259 55.1571 94.8249 71.9475 115.762 72.7127L150.982 74L115.762 75.2873C94.8249 76.0525 78.0259 92.8429 77.25 113.779L75.9817 148L74.7134 113.779C73.9375 92.8429 57.1385 76.0525 36.2019 75.2873L0.981689 74L36.2018 72.7127C57.1384 71.9475 73.9375 55.1571 74.7134 34.2209L75.9817 0Z" fill="#fff5e1">
+                                          </svg>
+                                    </div>
+    
+                                    <div class="star-svg-2 floating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="111" height="140" viewBox="0 0 111 140" fill="none">
+                                            <path d="M55.8375 0L58.4266 20.7117C61.5041 45.3298 80.4128 64.9886 104.893 69.0208L110.838 70L104.893 70.9792C80.4128 75.0114 61.5041 94.6702 58.4266 119.288L55.8375 140L53.2484 119.288C50.171 94.6702 31.2622 75.0114 6.78235 70.9792L0.837524 70L6.78235 69.0208C31.2622 64.9886 50.171 45.3298 53.2484 20.7117L55.8375 0Z" fill="#FFD8CC">
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- resume download button -->
+                        <div class="resume-container last-element">
+                            <a href="resume.pdf" load>
+                                <button class="resume-button">Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="left-footer">
+                <img src="/img/pom.png" alt="" height="100">
+                <p class="copyright">&copy 2024 Tracy Nguyen.</p>
+            </div>
+            <div class="social-container">
+                <div class="socials">
+                    <p>Elsewhere</p>
+                    <a href="https://github.com/xtrasee">Github</a>
+                    <a href="https://www.linkedin.com/in/tracyhnguy/">LinkedIn</a>
+                    <a href="https://www.instagram.com/xtrasee/">Instagram</a>
+                    <a href="https://discord.gg/Z37FgdjB">Discord</a>
+                    <a href="https://www.facebook.com/nguywen.tracy/">Facebook</a>
+                </div>
+                <div class="message">
+                    <p>Contact</p>
+                    <a href="mailto:thn018@ucsd.edu?subject=Inquiry">Message</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

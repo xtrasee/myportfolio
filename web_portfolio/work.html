@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1ded1ed97d.js" crossorigin="anonymous"></script>
+    <title>Work</title>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <nav class="navbar">    
+                                <ul class="navbar-nav" id="navbar">
+                                    <li class="nav-item"><a href="/index.html">Home</a></li> 
+                                    <li class="nav-item"><a href="/about.html">About</a></li> 
+                                    <li class="nav-item active"><a href="/work.html">Work</a></li> 
+                                    <li class="nav-item"><a href="/contact.php">Contact</a></li>
+                                    <label class="ui-switch">
+                                        <input type="checkbox" id="theme-button">
+                                        <div class="slider">
+                                          <div class="circle"></div>
+                                        </div>
+                                    </label>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="page-container">
+            <main>
+                <section class="work"> 
+                    <div class="work-heading">
+                        <h1>Work.</h1>
+                        <p>A collection of sites I've developed -- each engineered to be helpful, fun, and, frankly, resulted from the pursuit of my own curiosity.</p>
+                    </div>
+    
+                    <div class="star-container">
+                        <div class="star-svg-3 floating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="69" viewBox="0 0 111 110" fill="none">
+                                <path d="M55.4188 0L58.5347 18.917C61.3216 35.8363 74.5825 49.0972 91.5018 51.8841L110.419 55L91.5018 58.1159C74.5825 60.9028 61.3216 74.1637 58.5347 91.0831L55.4188 110L52.3028 91.0831C49.516 74.1637 36.255 60.9028 19.3357 58.1159L0.418762 55L19.3357 51.8841C36.2551 49.0972 49.516 35.8363 52.3028 18.9169L55.4188 0Z" fill="white"/>
+                              </svg>
+                        </div>
+    
+                        <div class="star-svg-4 floating">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="87" viewBox="0 0 151 148" fill="none">
+                                <path d="M75.9817 0L77.25 34.2209C78.0259 55.1571 94.8249 71.9475 115.762 72.7127L150.982 74L115.762 75.2873C94.8249 76.0525 78.0259 92.8429 77.25 113.779L75.9817 148L74.7134 113.779C73.9375 92.8429 57.1385 76.0525 36.2019 75.2873L0.981689 74L36.2018 72.7127C57.1384 71.9475 73.9375 55.1571 74.7134 34.2209L75.9817 0Z" fill="white"/>
+                              </svg>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- 
+                    1. to include tools used in bubbles under the description 
+                    2. to inclde favicon in the cards.-->
+                <div class="proj-collection">
+                    <a href="https://play-pokemon.vercel.app/" target="_blank" class="clickable-card">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-title">
+                                    Pokemon Memory Game
+                                </div>
+
+                                <p class="card-description">
+                                    React+Vite Application that tests users on their memory and observation skills through Pokemon decks. Players must not click on the same pokemon card twice!
+                                </p>
+
+                                <p class="tech-stack">
+                                    ReactJS, Vite, PokeAPI, CSS
+                                </p>
+                            </div>
+                            
+                            <div class="card-imgs">
+                                <img class="proj-imgs" src="/img/pokemon-game.png" alt="pokemon game img">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://cv-maker-five-beige.vercel.app/" target="_blank" class="clickable-card">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-title">
+                                    CV Maker
+                                </div>
+                                <p class="card-description">
+                                    React+Vite application where users can input their information to seamlessly generate a resume.
+                                </p>
+                                <p class="tech-stack">
+                                    ReactJS, Vite, CSS
+                                </p>
+                            </div>
+
+                            <div class="card-imgs">
+                                <img class="proj-imgs" src="/img/cv-maker.png" alt="cv maker img">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://randomideas-api-1mcg.onrender.com" target="_blank" class="clickable-card">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-title">
+                                    Randomideas Api
+                                </div>
+                                
+                                <p class="card-description">
+                                    Followed Brad Traversy's course. Stores and displays your collection of random ideas with username and tag implementation.
+                                </p>
+                                <p class="tech-stack">
+                                    MongoDB, Express.js, Node.js
+                                </p>
+                            </div>
+
+                            <div class="card-imgs">
+                                <img class="proj-imgs" src="/img/random-ideas.png" alt="randomideas api img">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://friendly-salamander-16d5c2.netlify.app" target="_blank" class="clickable-card">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-title">
+                                    Tracalorie App
+                                </div>
+                                <p class="card-description">
+                                    Followed Brad Traversy's course. Calculates calories consumed, calories burned, calories remaining, and overall gain/loss.
+                                </p>
+                                <p class="tech-stack">
+                                    SCSS, Vanilla JS
+                                </p>
+                            </div>
+
+                            <div class="card-imgs">
+                                <img class="proj-imgs" src="/img/tracalorie.png" alt="tracalorie img">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://nomnotes.vercel.app/" target="_blank" class="clickable-card">
+                        <div class="card">
+
+                            <div class="card-content">
+                                <div class="card-title">
+                                    Grocery List
+                                </div>
+                                <p class="card-description">
+                                    Add, delete, edit, clear, and locally saves your shopping list items.
+                                </p>
+                                <p class="tech-stack">
+                                    HTML, CSS, Vanilla JS
+                                </p>
+                            </div>
+
+                            <div class="card-imgs">
+                                <img class="proj-imgs" src="/img/grocery-list.png" alt="grcerey list img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </main>
+        </div>
+    
+        <footer>
+            <div class="left-footer">
+                <img src="/img/pom.png" alt="" height="100">
+                <p class="copyright">&copy 2024 Tracy Nguyen.</p>
+            </div>
+            <div class="social-container">
+                <div class="socials">
+                    <p>Elsewhere</p>
+                    <a href="https://github.com/xtrasee">Github</a>
+                    <a href="https://www.linkedin.com/in/tracyhnguy/">LinkedIn</a>
+                    <a href="https://www.instagram.com/xtrasee/">Instagram</a>
+                    <a href="https://discord.gg/Z37FgdjB">Discord</a>
+                    <a href="https://www.facebook.com/nguywen.tracy/">Facebook</a>
+                </div>
+                <div class="message">
+                    <p>Contact</p>
+                    <a href="mailto:thn018@ucsd.edu?subject=Inquiry">Message</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

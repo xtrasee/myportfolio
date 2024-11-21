@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  php-app:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./portfolio:/var/www/html
+    depends_on:
+      - smtp
+  smtp:
+    image: namshi/smtp
+    ports:
+      - "1025:25"

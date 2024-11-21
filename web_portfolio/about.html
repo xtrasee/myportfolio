@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://kit.fontawesome.com/1ded1ed97d.js" crossorigin="anonymous"></script>
+    <title>About Tracy</title>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <nav class="navbar">    
+                                <ul class="navbar-nav" id="navbar">
+                                    <li class="nav-item"><a href="/index.html">Home</a></li> 
+                                    <li class="nav-item active"><a href="/about.html">About</a></li> 
+                                    <li class="nav-item"><a href="/work.html">Work</a></li> 
+                                    <li class="nav-item"><a href="/contact.php">Contact</a></li>
+    
+                                    <label class="ui-switch">
+                                        <input type="checkbox" id="theme-button">
+                                        <div class="slider">
+                                          <div class="circle"></div>
+                                        </div>
+                                    </label>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="page-container">
+                <section class="about">
+                    <h1>I'm Tracy.</h1>
+                    <div class="aboutSec">
+                        <div class="profilePic">
+                            <img id="mainImg" src="img/gradPic.jpg" alt="Tracy's Profile Picture" class="curvy-image" onclick="zoomImage()">
+                        </div>
+                        <div class="about-head">
+                            <h2>B.S. in Business Psychology and Minor in Computer Science.</h2> 
+                            <p>This portfolio is more than a mere collection of projects; it's a glimpse into my journey and dedication to continuous learning.</p>
+                        </div>   
+                    </div>
+    
+                    <div class="about-tools" id="contents">
+                        <div class="skills" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1500" data-aos-anchor=".aboutSec">
+                            <h2>My Current Tech Kit:</h2>
+                            <div class="technologies">
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-js"></i>
+                                    <h5>JAVASCRIPT</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <h5>CSS</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <h5>HTML</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-node-js"></i>
+                                    <h5>NODE JS</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-git-alt"></i>
+                                    <h5>GIT</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-react"></i>
+                                    <h5>REACT</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-python"></i>
+                                    <h5>PYTHON</h5>
+                                </div>
+                                <div class="tech-card">
+                                    <i class="fa-brands fa-java"></i>
+                                    <h5>JAVA</h5>
+                                </div>
+                            </div>
+    
+                            <div class="soft-skills">
+                                <h2>My Personality Kit:</h2>
+                                <div class="skill-box">
+                                    <div class="quality-card">Adaptable</div>
+                                    <div class="quality-card">Team Player</div>
+                                    <div class="quality-card">Good Time Management</div>
+                                    <div class="quality-card">Leader</div>
+                                    <div class="quality-card">Good Communicator</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="short-intro">
+                        <div class="intro-bio" data-aos="fade-up" data-aos-duration="1500">
+                            My journey into the world of coding has been thrilling. During my academic career, I took on various leadership positions, honing my skills in effective communication and teamwork. Initially, I focused on studying effective team dynamics; however, during the pandemic, I realized the profound impact technology has on our daily lives.<br></br> This realization led me to pursue a minor in Computer Science, where I discovered the incredible possibilities of programming. As I began tinkering with new technologies, Web Development completely captured my interest and I found myself always eager to learn more. With my dual passions for effective communication and coding, I am confident in my ability to contribute as a valuable developer in any team.
+                        </div>
+                    </div>
+    
+                    <div class="fun-facts">
+                        <h3>When I'm not at the computer, I ...</h3>
+                        <ul>
+                            <div class="fun1" data-aos="fade-right"
+                            data-aos-offset="300">
+                                <li>Enjoy playing badminton mediocrely.</li>
+                            </div>
+                            <div class="fun2" data-aos="fade-right"
+                            data-aos-offset="300">
+                                <li>Seek out new restaurants to critique.</li>
+                            </div>
+                            <div class="fun3" data-aos="fade-right"
+                            data-aos-offset="300">
+                                <li>Watch horrible yet fascinating reality shows.</li>
+                            </div>
+                            <div class="fun4" data-aos="fade-right"
+                            data-aos-offset="300">
+                                <li>Get frustrated learning new songs on the piano.</li>
+                            </div>
+                            <div class="fun5" data-aos="fade-right"
+                            data-aos-offset="300">
+                                <li>Calm my frustrations  from playing the piano by painting.</li>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+    
+        </main>
+        
+        <footer>
+            <div class="left-footer">
+                <img src="img/pom.png" alt="" height="100">
+                <p class="copyright">&copy 2024 Tracy Nguyen.</p>
+            </div>
+            <div class="social-container">
+                <div class="socials">
+                    <p>Elsewhere</p>
+                    <a href="https://github.com/xtrasee">Github</a>
+                    <a href="https://www.linkedin.com/in/tracyhnguy/">LinkedIn</a>
+                    <a href="https://www.instagram.com/xtrasee/">Instagram</a>
+                    <a href="https://discord.gg/Z37FgdjB">Discord</a>
+                    <a href="https://www.facebook.com/nguywen.tracy/">Facebook</a>
+                </div>
+                <div class="message">
+                    <p>Contact</p>
+                    <a href="mailto:thn018@ucsd.edu?subject=Inquiry">Message</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- animations by Michał Sajnóg-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- api key: AIzaSyDaWTYYPRSoiYV_LHHJRCKE2ZOMS4uFIdg -->
+</body>
+</html>
