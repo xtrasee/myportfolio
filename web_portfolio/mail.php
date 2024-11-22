@@ -12,9 +12,6 @@ use PHPMailer\PHPMailer\SMTP;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
 function sendMail($name, $email, $message){
     $mail = new PHPMailer(true);
 
